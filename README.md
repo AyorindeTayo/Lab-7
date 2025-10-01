@@ -357,3 +357,44 @@ gs_bag.fit(X_train, y_train)
 
 print("Bagging Best parameters: ", gs_bag.best_params_)
 print("Bagging Best score: ", gs_bag.best_score_)
+
+# Analysis Questions
+
+## Majority Voting vs Individual Classifiers
+Compare the performance of the majority voting classifier with individual classifiers. Why does the ensemble typically perform better? Are there cases where it might perform worse?
+Bagging Analysis
+
+How does changing the number of estimators in bagging affect performance?
+What is the effect of bootstrap sampling vs using the entire dataset?
+Why does bagging typically reduce overfitting compared to a single decision tree?
+
+## AdaBoost Insights
+
+How does the learning rate parameter affect AdaBoost's performance and convergence?
+Analyze the error convergence plot. Why does the test error sometimes increase after many iterations?
+What makes decision stumps good base estimators for AdaBoost?
+
+## Comparative Performance
+
+Which ensemble method performed best on the Iris dataset? Why do you think this is?
+How does Random Forest (which you used in the comparison) relate to bagging?
+When would you choose one ensemble method over another?
+
+## Practical Considerations
+
+What are the computational trade-offs between different ensemble methods?
+How does ensemble size affect the bias-variance tradeoff?
+In what real-world scenarios would each ensemble method be most appropriate?
+
+## Deliverables
+
+- Complete with all code implementations
+- Visualization plots for decision boundaries and error convergence
+- Performance comparison table of all classifiers
+- Answers to analysis questions
+- Brief report summarizing your findings and observations
+
+## Submission
+- Push your completed lab files to GitHub and submit the repository link. Include:
+
+
