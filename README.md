@@ -357,7 +357,7 @@ gs_bag.fit(X_train, y_train)
 
 print("Bagging Best parameters: ", gs_bag.best_params_)
 print("Bagging Best score: ", gs_bag.best_score_)
-
+```
 # Analysis Questions
 
 ## Majority Voting vs Individual Classifiers
